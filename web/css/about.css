@@ -1,0 +1,106 @@
+hr
+{
+	opacity: 0.7;
+	color: gray;
+	width: 90%;
+	margin-top: 0;
+}
+
+#title
+{
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 3.5em;
+}
+
+#about{
+	padding:0.5em 4em;
+}
+
+#about p{
+	margin-top: 0;
+}
+
+hr:nth-of-type(2){
+	margin-bottom: 3em;
+}
+
+/*MOBILE PHONE VIEWPORT*/
+@media only screen and (max-width: 768px)
+{
+	#title
+	{
+		font-size: 300%;
+	}
+
+	img
+	{
+		margin-left: 25%;
+		margin-right: 25%;
+		width: 50%;
+		height: 50%;
+		border-radius: 150px;
+		border: 1px solid black;
+	}
+
+	.caption
+	{
+		text-align: center;
+	}
+
+	.bio
+	{
+		margin-left: 5%;
+	}
+
+	li
+	{
+		font-size: 105%;
+	}
+}
+
+/*TABLET & DESKTOP VIEWPORT*/
+@media only screen and (min-width: 769px) 
+{
+	img
+	{
+		margin-left: 12%;
+		width: 50%;
+		height: 50%;
+		border-radius: 150px;
+		border: 1px solid black;
+	}
+
+	li
+	{
+		font-size: 200%;
+	}
+
+	.float-left
+	{
+		float: left;
+	}
+
+	.picture-caption
+	{
+		margin-left: 8%;
+		width: 30%;
+	}
+
+	.text-block
+	{
+		width: 20%;
+	}
+
+	.caption
+	{
+		text-align: center;
+		margin-left: -30%;
+	}
+
+	.bio p
+	{
+		font-size: 1em;
+		width: 90%;
+	}
+}
